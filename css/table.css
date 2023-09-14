@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+table{
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+}
+
+caption{
+    font-size: 32px;
+    font-weight: bold;
+    background-color: coral;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid salmon;
+}
+
+tfoot{
+    background-color: burlywood;
+}

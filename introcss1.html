@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRO CSS-1</title>
+    <style>
+        .banner-1{
+            background-color: brown;
+            color: aliceblue;
+            border: 2px dashed darkblue;
+        }
+        .banner-2{
+            color: black;
+        }
+        .banner-font{
+            font-size: 2em;
+        }
+        #banner-alignment{
+            text-align: center;
+            width: 50%;
+        }
+        .banner-container{
+            display: flex;
+            gap: 10px;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="banner-container">
+            <div class="banner-1 banner-font">
+                <h1>Welcome-1</h1>
+                <p>Hi I'm div-1 </p>
+            </div>
+            <div class="banner-2 banner-1" id="banner-alignment">
+                <h1>Welcome-2</h1>
+                <p>Hi I'm div-2</p>
+            </div>
+            <div class="banner-1 banner-2 banner-font">
+                <h1>Welcome-3</h1>
+                <p>Hi I'm div-3</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
